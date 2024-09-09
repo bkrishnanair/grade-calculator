@@ -11,7 +11,7 @@ my_grades = Grades()
 weights = GradeWeights()
 
 # Set grades achieved so far
-my_grades.quiz_1 = 0.78 # Received 78% in the first quiz
+my_grades.quiz_1 = 0.89 # Received 78% in the first quiz
 
 # Print out the grades to console
 print(my_grades)
@@ -29,3 +29,4 @@ optimistic_percentage_grade = GradeCalculator.calculate_optimistic_course_percen
 optimistic_letter_grade = GradeCalculator.calculate_letter_grade(optimistic_percentage_grade)
 print(f'If all other assignments are 100%, the overall course would be {optimistic_percentage_grade*100}%, which is a {optimistic_letter_grade}')
 
+#CalculATE GRADES
